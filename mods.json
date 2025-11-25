@@ -1,20 +1,22 @@
 [
   {
-    "id": "shutup-engines",
+    "id": "shutup_engines",
     "name": "ShutUp Engines",
     "version": "1.0.0",
-    "kind": "Harmony",
-    "description": "Réduit le volume général du jeu via une touche dédiée pour rendre les moteurs plus supportables.",
-    "required": true,
-    "status": "ok"
+    "kind": "Harm",
+    "mandatory": true,
+    "descriptionShort": "Réduit le volume général du jeu avec une touche.",
+    "descriptionLong": "Mod Harmony qui permet de couper/atténuer tous les sons du jeu avec une touche configurable. Idéal pour discuter sur Discord sans se faire exploser les oreilles par la horde.",
+    "folderName": "ShutUpEngines"
   },
   {
-    "id": "decor-expanded",
+    "id": "decor_expanded",
     "name": "Decor Expanded",
     "version": "0.1.0",
     "kind": "XML",
-    "description": "Ajoute des blocs décoratifs craftables (bois, métal, bureau, maison) pour enrichir le build.",
-    "required": false,
-    "status": "ok"
+    "mandatory": false,
+    "descriptionShort": "Ajoute des blocs décoratifs.",
+    "descriptionLong": "Pack de blocs déco (palettes, meubles, bureaux, etc.) craftables et utilisables pour construire des bases plus variées.",
+    "folderName": "DecorExpanded"
   }
 ]
