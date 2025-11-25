@@ -1,29 +1,19 @@
-{
-  "modsRoot": "Instances/Nexus/Mods",
-  "mods": [
-    {
-      "id": "SMXhud",
-      "name": "SMX HUD",
-      "version": "2.4.0",
-      "required": true,
-      "sourceUrl": "https://example.com/SMXHud.zip",
-      "description": "Interface HUD retravaillée pour une meilleure lisibilité."
-    },
-    {
-      "id": "ShutUp Engine",
-      "name": "ShutUp Engine",
-      "version": "1.3.2",
-      "required": true,
-      "sourceUrl": "https://example.com/LockableSlots.zip",
-      "description": "Gestion des emplacements verrouillables dans l'inventaire."
-    },
-    {
-      "id": "BackpackPlus",
-      "name": "Backpack Plus",
-      "version": "1.0.0",
-      "required": false,
-      "sourceUrl": "https://example.com/BackpackPlus.zip",
-      "description": "Augmente légèrement la taille du sac à dos (optionnel)."
-    }
-  ]
-}
+[
+  {
+    "id": "ShutUpEngines",
+    "name": "ShutUp Engines",
+    "version": "1.0.0",
+    "required": true,
+    "kind": "Serveur",
+    "description": "Réduction du bruit des moteurs et des véhicules pour un confort auditif amélioré."
+  },
+  {
+    "id": "DecorExpanded",
+    "name": "Decor Expanded",
+    "version": "0.1.0",
+    "required": false,
+    "kind": "Client/Serveur",
+    "description": "Ajoute des blocs décoratifs supplémentaires pour les constructions (tables, chaises, tonneaux, etc.)."
+  }
+]
+
