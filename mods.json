@@ -1,19 +1,20 @@
 [
   {
-    "id": "ShutUpEngines",
+    "id": "shutup-engines",
     "name": "ShutUp Engines",
     "version": "1.0.0",
+    "kind": "Harmony",
+    "description": "Réduit le volume général du jeu via une touche dédiée pour rendre les moteurs plus supportables.",
     "required": true,
-    "kind": "Serveur",
-    "description": "Réduction du bruit des moteurs et des véhicules pour un confort auditif amélioré."
+    "status": "ok"
   },
   {
-    "id": "DecorExpanded",
+    "id": "decor-expanded",
     "name": "Decor Expanded",
     "version": "0.1.0",
+    "kind": "XML",
+    "description": "Ajoute des blocs décoratifs craftables (bois, métal, bureau, maison) pour enrichir le build.",
     "required": false,
-    "kind": "Client/Serveur",
-    "description": "Ajoute des blocs décoratifs supplémentaires pour les constructions (tables, chaises, tonneaux, etc.)."
+    "status": "ok"
   }
 ]
-
