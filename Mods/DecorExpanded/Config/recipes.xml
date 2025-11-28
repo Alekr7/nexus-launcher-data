@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+    <append xpath="/recipes">
+
+        <!-- Recette tente biohazard (déjà validée) -->
+        <recipe name="tentBiohazardCapLeftRed"
+                count="1"
+                craft_area="workbench"
+                tags="decor,tent">
+            <ingredient name="resourceCloth" count="40" />
+            <ingredient name="resourceForgedIron" count="10" />
+            <ingredient name="resourceDuctTape" count="5" />
+        </recipe>
+
+        <!-- Pack déco en bois -->
+        <recipe name="decorWoodVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceWood" count="40" />
+            <ingredient name="resourcePaper" count="20" />
+            <ingredient name="resourceScrapIron" count="10" />
+        </recipe>
+
+        <!-- Pack déco métal / industriel -->
+        <recipe name="decorMetalVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceScrapIron" count="60" />
+            <ingredient name="resourceMechanicalParts" count="5" />
+        </recipe>
+
+        <!-- Pack déco maison / intérieur -->
+        <recipe name="decorHomeVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceWood" count="40" />
+            <ingredient name="resourceCloth" count="20" />
+            <ingredient name="resourceLeather" count="10" />
+        </recipe>
+
+        <!-- Pack déco bureau / office -->
+        <recipe name="decorOfficeVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceScrapIron" count="40" />
+            <ingredient name="resourceElectricalParts" count="10" />
+        </recipe>
+
+        <!-- Pack déco extérieur / jardin -->
+        <recipe name="decorOutdoorVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceWood" count="40" />
+            <ingredient name="resourcePlantFibers" count="40" />
+            <ingredient name="resourceScrapIron" count="5" />
+        </recipe>
+
+        <!-- Pack déco panneaux / enseignes -->
+        <recipe name="decorSignageVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceForgedIron" count="40" />
+            <ingredient name="resourceElectricalParts" count="10" />
+            <ingredient name="resourcePaint" count="20" />
+        </recipe>
+
+        <!-- Pack déco tissus / tentes / bannières -->
+        <recipe name="decorFabricVariantHelper"
+                count="1"
+                craft_time="60"
+                craft_area="workbench"
+                tags="decor,workbenchCrafting">
+            <ingredient name="resourceCloth" count="60" />
+            <ingredient name="resourceDuctTape" count="10" />
+        </recipe>
+
+    </append>
+
+</configs>

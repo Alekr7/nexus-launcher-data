@@ -1,0 +1,4 @@
+Key,Source,Context,English,French
+buffshutupengines,buffs,shutup_engines,"ShutUp Engine","ShutUp Engine"
+ShutUpEnginesDesc,buffs,shutup_engines,"Temporarily lowers all game sounds to 10% while the effect is active.","Abaisse temporairement tous les sons du jeu à 10 % tant que l’effet est actif."
+ShutUpEnginesName,buffs,shutup_engines,"ShutUp!","ShutUp!"

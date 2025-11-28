@@ -1,0 +1,88 @@
+<append xpath="/blocks">
+
+    <!-- Pack déco en bois -->
+    <block name="decorWoodVariantHelper">
+        <property name="Extends" value="air"/> <!-- au lieu de wineBarrel -->
+        <property name="CustomIcon" value="wineBarrel"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorWoodVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue"
+                  value="wineBarrel,barStool,parkBenchA,parkBenchB,decoPoolTable"/>
+        <property name="EconomicValue" value="60"/>
+    </block>
+
+    <!-- Pack déco métal / industriel -->
+    <block name="decorMetalVariantHelper">
+        <property name="Extends" value="air"/> <!-- au lieu de trashCan01 -->
+        <property name="CustomIcon" value="trashCan01"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorMetalVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="trashCan01"/>
+        <property name="EconomicValue" value="70"/>
+    </block>
+
+    <!-- Pack déco maison / intérieur -->
+    <block name="decorHomeVariantHelper">
+        <property name="Extends" value="air"/>
+        <property name="CustomIcon" value="couch01"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorHomeVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="couch01"/>
+        <property name="EconomicValue" value="80"/>
+    </block>
+
+    <!-- Pack déco bureau / office -->
+    <block name="decorOfficeVariantHelper">
+        <property name="Extends" value="air"/>
+        <property name="CustomIcon" value="officeChair01"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorOfficeVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="officeChair01"/>
+        <property name="EconomicValue" value="80"/>
+    </block>
+
+    <!-- Pack déco extérieur / jardin -->
+    <block name="decorOutdoorVariantHelper">
+        <property name="Extends" value="air"/>
+        <property name="CustomIcon" value="parkBenchA"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorOutdoorVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="parkBenchA"/>
+        <property name="EconomicValue" value="70"/>
+    </block>
+
+    <!-- Pack déco panneaux / enseignes -->
+    <block name="decorSignageVariantHelper">
+        <property name="Extends" value="air"/>
+        <property name="CustomIcon" value="storeSignNeon01"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorSignageVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="storeSignNeon01"/>
+        <property name="EconomicValue" value="90"/>
+    </block>
+
+    <!-- Pack déco tissus / tentes / bannières -->
+    <block name="decorFabricVariantHelper">
+        <property name="Extends" value="air"/>
+        <property name="CustomIcon" value="tentBiohazardCapLeftRed"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="DescriptionKey" value="decorFabricVariantHelperDesc"/>
+        <property name="ItemTypeIcon" value="all_blocks"/>
+        <property name="SelectAlternates" value="true"/>
+        <property name="PlaceAltBlockValue" value="tentBiohazardCapLeftRed"/>
+        <property name="EconomicValue" value="90"/>
+    </block>
+
+</append>

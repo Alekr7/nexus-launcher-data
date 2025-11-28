@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+    <append xpath="/items">
+
+        <!-- Pack déco en bois -->
+        <item name="decorWoodVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="wineBarrel"/>
+            <property name="DescriptionKey" value="decorWoodVariantHelperDesc"/>
+            <property name="EconomicValue" value="60"/>
+            <!-- Type de matériau de l'item (sons / résistance) -->
+            <property name="Material" value="Morganic"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorWoodVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco métal / industriel -->
+        <item name="decorMetalVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="trashCan01"/>
+            <property name="DescriptionKey" value="decorMetalVariantHelperDesc"/>
+            <property name="EconomicValue" value="70"/>
+            <property name="Material" value="Mmetal"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorMetalVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco maison / intérieur -->
+        <item name="decorHomeVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="couch01"/>
+            <property name="DescriptionKey" value="decorHomeVariantHelperDesc"/>
+            <property name="EconomicValue" value="80"/>
+            <property name="Material" value="Morganic"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorHomeVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco bureau / office -->
+        <item name="decorOfficeVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="officeChair01"/>
+            <property name="DescriptionKey" value="decorOfficeVariantHelperDesc"/>
+            <property name="EconomicValue" value="80"/>
+            <property name="Material" value="Mmetal"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorOfficeVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco extérieur / jardin -->
+        <item name="decorOutdoorVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="parkBenchA"/>
+            <property name="DescriptionKey" value="decorOutdoorVariantHelperDesc"/>
+            <property name="EconomicValue" value="70"/>
+            <property name="Material" value="Morganic"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorOutdoorVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco panneaux / enseignes -->
+        <item name="decorSignageVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="storeSignNeon01"/>
+            <property name="DescriptionKey" value="decorSignageVariantHelperDesc"/>
+            <property name="EconomicValue" value="90"/>
+            <property name="Material" value="Mmetal"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorSignageVariantHelper"/>
+            </property>
+        </item>
+
+        <!-- Pack déco tissus / tentes / bannières -->
+        <item name="decorFabricVariantHelper">
+            <property name="Extends" value="terrDestroyedStone"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="tentBiohazardCapLeftRed"/>
+            <property name="DescriptionKey" value="decorFabricVariantHelperDesc"/>
+            <property name="EconomicValue" value="90"/>
+            <property name="Material" value="Mcloth"/>
+
+            <property class="Action0">
+                <property name="Class" value="PlaceBlock"/>
+                <property name="Delay" value="0"/>
+                <property name="Block_name" value="decorFabricVariantHelper"/>
+            </property>
+        </item>
+
+    </append>
+
+</configs>

@@ -1,0 +1,21 @@
+Key,Source,Context,English,French
+decorWoodVariantHelper,blocks,decorWoodVariantHelper,"Wooden decor pack","Pack déco en bois"
+decorWoodVariantHelperDesc,blocks,decorWoodVariantHelper,"Place and switch between several wooden decorations using the shape menu.","Place et change entre plusieurs décorations en bois via le menu des formes."
+
+decorMetalVariantHelper,blocks,decorMetalVariantHelper,"Metal decor pack","Pack déco métal"
+decorMetalVariantHelperDesc,blocks,decorMetalVariantHelper,"Place and switch between several metal decorations using the shape menu.","Place et change entre plusieurs décorations en métal via le menu des formes."
+
+decorHomeVariantHelper,blocks,decorHomeVariantHelper,"Home decor pack","Pack déco maison"
+decorHomeVariantHelperDesc,blocks,decorHomeVariantHelper,"Place and switch between several home-style decorations using the shape menu.","Place et change entre plusieurs décorations d'intérieur via le menu des formes."
+
+decorOfficeVariantHelper,blocks,decorOfficeVariantHelper,"Office decor pack","Pack déco bureau"
+decorOfficeVariantHelperDesc,blocks,decorOfficeVariantHelper,"Place and switch between several office decorations using the shape menu.","Place et change entre plusieurs décorations de bureau via le menu des formes."
+
+decorOutdoorVariantHelper,blocks,decorOutdoorVariantHelper,"Outdoor decor pack","Pack déco extérieur"
+decorOutdoorVariantHelperDesc,blocks,decorOutdoorVariantHelper,"Place and switch between several outdoor decorations using the shape menu.","Place et change entre plusieurs décorations extérieures via le menu des formes."
+
+decorSignageVariantHelper,blocks,decorSignageVariantHelper,"Signage decor pack","Pack panneaux et enseignes"
+decorSignageVariantHelperDesc,blocks,decorSignageVariantHelper,"Place and switch between several signs, posters and neon decorations using the shape menu.","Place et change entre plusieurs panneaux, affiches et enseignes via le menu des formes."
+
+decorFabricVariantHelper,blocks,decorFabricVariantHelper,"Fabric decor pack","Pack tentes et bannières"
+decorFabricVariantHelperDesc,blocks,decorFabricVariantHelper,"Place and switch between several tents, banners and fabric decorations using the shape menu.","Place et change entre plusieurs tentes, bannières et décorations en tissu via le menu des formes."

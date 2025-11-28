@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/buffs">
+        <buff name="buffShutUpEngines"
+              localized="true"
+              description_key="ShutUpEnginesDesc"
+              buff_category="equipment"
+              icon="ui_game_symbol_twitch_buckethead"
+              is_debuff="false"
+              duration="0"
+              stack_type="replace">
+            <display_name_key>ShutUpEnginesName</display_name_key>
+        </buff>
+    </append>
+</configs>
+

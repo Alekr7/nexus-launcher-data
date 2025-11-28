@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="DecorExpanded" />
+    <DisplayName value="Decor Expanded" />
+    <Description value="Ajoute des recettes pour les décorations de POI (côté serveur)." />
+    <Author value="Alek" />
+    <Version value="1.0.0" />
+    <Website value="" />
+    <SkipWithAntiCheat value="false" />
+</xml>
