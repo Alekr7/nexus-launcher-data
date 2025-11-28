@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "modsManifestUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/refs/heads/main/mods.json",
-  "modsDownloadBaseUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/refs/heads/main/Mods"
+  "modsManifestUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/mods.json",
+  "modsDownloadBaseUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/Mods"
 }
