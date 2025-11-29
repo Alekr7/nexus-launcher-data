@@ -2,7 +2,7 @@
   {
     "id": "shutup_engines",
     "name": "ShutUp Engines",
-    "version": "1.1.6",
+    "version": "1.0.6",
     "kind": "Harmony",
     "mandatory": true,
     "descriptionShort": "Réduit le volume général du jeu avec une touche.",
@@ -24,7 +24,7 @@
   {
     "id": "arkadi_rover",
     "name": "Arkadi_Rover",
-    "version": "0.1.4",
+    "version": "1.1.4",
     "kind": "XML",
     "mandatory": false,
     "descriptionShort": "Ajoute un véhicule personnalisé.",
@@ -33,6 +33,7 @@
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
