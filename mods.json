@@ -2,7 +2,7 @@
   {
     "id": "shutup_engines",
     "name": "ShutUp Engines",
-    "version": "1.0.20",
+    "version": "1.0.2",
     "kind": "Harmony",
     "mandatory": true,
     "descriptionShort": "Réduit le volume général du jeu avec une touche.",
@@ -33,6 +33,7 @@
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
