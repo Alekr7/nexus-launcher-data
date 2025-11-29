@@ -21,4 +21,16 @@
     "folderName": "DecorExpanded",
     "packageFileName": "DecorExpanded.zip"
   }
+  {
+    "id": "Arkadi_Rover",
+    "name": "Arkadi_Rover",
+    "version": "0.1.0",
+    "kind": "XML",
+    "mandatory": false,
+    "descriptionShort": "Ajoute des blocs décoratifs.",
+    "descriptionLong": "Ce mod est la pour rapeller à tous à quel point Arkadi, est un gros PD.",
+    "folderName": "Arkadi_Rover",
+    "packageFileName": "Arkadi_Rover.zip"
+  }
 ]
+
