@@ -2,7 +2,7 @@
   {
     "id": "shutup_engines",
     "name": "ShutUp Engines",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "kind": "Harmony",
     "mandatory": false,
     "descriptionShort": "Réduit le volume général du jeu avec une touche.",
@@ -15,7 +15,7 @@
     "name": "Decor Expanded",
     "version": "0.3.0",
     "kind": "XML",
-    "mandatory": false,
+    "mandatory": true,
     "descriptionShort": "Ajoute des blocs décoratifs.",
     "descriptionLong": "Pack de blocs déco (palettes, meubles, bureaux, etc.) craftables et utilisables pour construire des bases plus variées.",
     "folderName": "DecorExpanded",
@@ -24,15 +24,16 @@
   {
     "id": "arkadi_rover",
     "name": "Arkadi_Rover",
-    "version": "1.1.4",
+    "version": "1.0.4",
     "kind": "XML",
-    "mandatory": true,
+    "mandatory": false,
     "descriptionShort": "Ajoute un véhicule personnalisé.",
     "descriptionLong": "Ce mod est là pour rappeler à tous à quel point Arkadi est un gros con.",
     "folderName": "Arkadi_Rover",
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
