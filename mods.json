@@ -20,7 +20,7 @@
     "descriptionLong": "Pack de blocs déco (palettes, meubles, bureaux, etc.) craftables et utilisables pour construire des bases plus variées.",
     "folderName": "DecorExpanded",
     "packageFileName": "DecorExpanded.zip"
-  }
+  },
   {
     "id": "Arkadi_Rover",
     "name": "Arkadi_Rover",
@@ -33,4 +33,5 @@
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
