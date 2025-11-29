@@ -4,7 +4,7 @@
     "name": "ShutUp Engines",
     "version": "1.0.6",
     "kind": "Harmony",
-    "mandatory": true,
+    "mandatory": false,
     "descriptionShort": "Réduit le volume général du jeu avec une touche.",
     "descriptionLong": "Mod Harmony qui permet de couper/atténuer tous les sons du jeu avec une touche configurable. Idéal pour discuter sur Discord sans se faire exploser les oreilles.",
     "folderName": "ShutUpEngines",
@@ -26,13 +26,14 @@
     "name": "Arkadi_Rover",
     "version": "1.1.4",
     "kind": "XML",
-    "mandatory": false,
+    "mandatory": true,
     "descriptionShort": "Ajoute un véhicule personnalisé.",
     "descriptionLong": "Ce mod est là pour rappeler à tous à quel point Arkadi est un gros con.",
     "folderName": "Arkadi_Rover",
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
