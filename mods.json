@@ -15,7 +15,7 @@
     "name": "Decor Expanded",
     "version": "0.2.0",
     "kind": "XML",
-    "mandatory": false,
+    "mandatory": true,
     "descriptionShort": "Ajoute des blocs décoratifs.",
     "descriptionLong": "Pack de blocs déco (palettes, meubles, bureaux, etc.) craftables et utilisables pour construire des bases plus variées.",
     "folderName": "DecorExpanded",
@@ -33,6 +33,7 @@
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
