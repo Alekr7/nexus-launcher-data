@@ -13,7 +13,7 @@
   {
     "id": "decor_expanded",
     "name": "Decor Expanded",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "kind": "XML",
     "mandatory": false,
     "descriptionShort": "Ajoute des blocs décoratifs.",
@@ -33,6 +33,7 @@
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
