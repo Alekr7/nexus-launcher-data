@@ -2,7 +2,7 @@
   {
     "id": "shutup_engines",
     "name": "ShutUp Engines",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "kind": "Harmony",
     "mandatory": false,
     "descriptionShort": "Réduit le volume général du jeu avec une touche.",
@@ -26,13 +26,14 @@
     "name": "Arkadi_Rover",
     "version": "1.0.4",
     "kind": "XML",
-    "mandatory": false,
+    "mandatory": true,
     "descriptionShort": "Ajoute un véhicule personnalisé.",
     "descriptionLong": "Ce mod est là pour rappeler à tous à quel point Arkadi est un gros con.",
     "folderName": "Arkadi_Rover",
     "packageFileName": "Arkadi_Rover.zip"
   }
 ]
+
 
 
 
