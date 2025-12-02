@@ -1,5 +1,5 @@
 {
-  "times": ["04:00", "10:00", "16:00", "22:00"],
+  "times": ["04:00", "10:00", "16:00", "21:00"],
   "durationMinutes": 3,
   "warningOrangeMinutes": 60,
   "warningRedMinutes": 20
