@@ -15,7 +15,7 @@
     "name": "SMXcore",
     "version": "2.3 (b9)",
     "kind": "XML",
-    "mandatory": true,
+    "mandatory": false,
     "descriptionShort": "Module cœur requis pour tous les mods SMX.",
     "descriptionLong": "SMXcore est le modlet cœur de l'écosystème SMX. Vérifié pour la version 2.3 (b9). Tous les autres modlets SMX (HUD, Menu, UI) nécessitent ce module pour fonctionner. Nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation détaillées.",
     "folderName": "SMXcore",
@@ -55,6 +55,7 @@
     "packageFileName": "SMXui.zip"
   }
 ]
+
 
 
 
