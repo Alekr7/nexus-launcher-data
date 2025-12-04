@@ -20,7 +20,7 @@
     "descriptionLong": "SMXcore est le modlet cœur de l'écosystème SMX. Vérifié pour la version 2.3 (b9). Tous les autres modlets SMX (HUD, Menu, UI) nécessitent ce module pour fonctionner. Nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation détaillées.",
     "folderName": "SMXcore",
     "packageFileName": "SMXcore.zip",
-    "downloadUrl": "https://ton-hebergeur-externe.tld/mods/SMXcore.zip"
+    "downloadUrl": "https://www.dropbox.com/scl/fi/3petyz8k8t4cjb6bng88b/SMXcore.zip?rlkey=p2glbbn3mshw5v8kz6u36tu7c&st=w82bozh9&dl=0"
   },
   {
     "id": "smx_hud",
@@ -56,6 +56,7 @@
     "packageFileName": "SMXui.zip"
   }
 ]
+
 
 
 
