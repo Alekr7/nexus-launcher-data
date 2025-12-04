@@ -11,26 +11,48 @@
     "packageFileName": "ShutUpEngines.zip"
   },
   {
-    "id": "decor_expanded",
-    "name": "Decor Expanded",
-    "version": "1.3.0",
+    "id": "smx_core",
+    "name": "SMXcore",
+    "version": "2.3 (b9)",
     "kind": "XML",
     "mandatory": true,
-    "descriptionShort": "Ajoute des blocs décoratifs.",
-    "descriptionLong": "Pack de blocs déco (palettes, meubles, bureaux, etc.) craftables et utilisables pour construire des bases plus variées.",
-    "folderName": "DecorExpanded",
-    "packageFileName": "DecorExpanded.zip"
+    "descriptionShort": "Module cœur requis pour tous les mods SMX.",
+    "descriptionLong": "SMXcore est le modlet cœur de l'écosystème SMX. Vérifié pour la version 2.3 (b9). Tous les autres modlets SMX (HUD, Menu, UI) nécessitent ce module pour fonctionner. Nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation détaillées.",
+    "folderName": "SMXcore",
+    "packageFileName": "SMXcore.zip"
   },
   {
-    "id": "arkadi_rover",
-    "name": "Arkadi_Rover",
-    "version": "1.0.4",
+    "id": "smx_hud",
+    "name": "SMXhud",
+    "version": "2.3 (b9)",
     "kind": "XML",
     "mandatory": true,
-    "descriptionShort": "Ajoute un véhicule personnalisé.",
-    "descriptionLong": "Ce mod est là pour rappeler à tous à quel point Arkadi est un gros con.",
-    "folderName": "Arkadi_Rover",
-    "packageFileName": "Arkadi_Rover.zip"
+    "descriptionShort": "Conversion complète du HUD en version SMX.",
+    "descriptionLong": "SMXhud est le modlet de conversion du HUD qui remplace l’interface de tête (barres de vie, stamina, buffs, etc.) par la version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
+    "folderName": "SMXhud",
+    "packageFileName": "SMXhud.zip"
+  },
+  {
+    "id": "smx_menu",
+    "name": "SMXmenu",
+    "version": "2.3 (b9)",
+    "kind": "XML",
+    "mandatory": true,
+    "descriptionShort": "Conversion des menus du jeu en version SMX.",
+    "descriptionLong": "SMXmenu est le modlet de conversion des menus (écran titre, options, etc.) vers la version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
+    "folderName": "SMXmenu",
+    "packageFileName": "SMXmenu.zip"
+  },
+  {
+    "id": "smx_ui",
+    "name": "SMXui",
+    "version": "2.3 (b9)",
+    "kind": "XML",
+    "mandatory": true,
+    "descriptionShort": "Conversion de l’UI complète en version SMX.",
+    "descriptionLong": "SMXui est le modlet de conversion de l’interface utilisateur (inventaire, fenêtres, etc.) en version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
+    "folderName": "SMXui",
+    "packageFileName": "SMXui.zip"
   }
 ]
 
