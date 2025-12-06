@@ -1,5 +1,6 @@
 {
   "version": 1,
   "modsManifestUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/mods.json",
-  "modsDownloadBaseUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/Mods"
+  "modsDownloadBaseUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/Mods",
+  "discordWidgetUrl": "https://discord.com/api/guilds/1357120505672372295/widget.json"
 }
