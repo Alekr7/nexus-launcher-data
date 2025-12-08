@@ -2,7 +2,7 @@
   {
     "id": "NexusAutoConnect",
     "name": "NexusAutoConnect",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "kind": "Harmony",
     "mandatory": true,
     "descriptionShort": "Assure la communication dans l'envirronement Nexus",
@@ -67,5 +67,6 @@
     "packageFileName": "SMXui.zip"
   }
 ]
+
 
 
