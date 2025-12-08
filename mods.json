@@ -1,5 +1,16 @@
 [
   {
+    "id": "NexusAutoConnect",
+    "name": "NexusAutoConnect",
+    "version": "1.0.0",
+    "kind": "Harmony",
+    "mandatory": true,
+    "descriptionShort": "Assure la communication dans l'envirronement Nexus",
+    "descriptionLong": "version 1.",
+    "folderName": "NexusAutoConnect",
+    "packageFileName": "NexusAutoConnect.zip"
+  },
+  {
     "id": "shutup_engines",
     "name": "ShutUp Engines",
     "version": "1.0.9",
@@ -56,4 +67,5 @@
     "packageFileName": "SMXui.zip"
   }
 ]
+
 
