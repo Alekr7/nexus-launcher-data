@@ -2,6 +2,7 @@
   "version": 1,
   "modsManifestUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/mods.json",
   "modsDownloadBaseUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/main/Mods",
+  "bridgeBaseUrl": "http://82.65.195.181:9000",
   "discordWidgetUrl": "https://discord.com/api/guilds/1357120505672372295/widget.json",
   "discordInviteUrl": "https://discord.gg/N5Mc7wseP8"
 }
