@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <!-- Internal ID du mod (doit être unique, utilisé en interne) -->
+    <Name value="NexusAutoConnect" />
+
+    <!-- Nom affiché dans l’UI des mods -->
+    <DisplayName value="Nexus AutoConnect" />
+
+    <!-- Version SemVer -->
+    <Version value="0.1.0" />
+
+    <!-- Texte de description -->
+    <Description value="Auto-connect Nexus launcher to the official Nexus server." />
+
+    <!-- Auteur -->
+    <Author value="Alek" />
+
+    <!-- URL optionnelle -->
+    <Website value="" />
+</xml>
