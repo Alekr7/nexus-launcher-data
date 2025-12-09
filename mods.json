@@ -2,7 +2,7 @@
   {
     "id": "NexusAutoConnect",
     "name": "NexusAutoConnect",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "kind": "client",
     "mandatory": true,
     "descriptionShort": "Mod client obligatoire pour l'auto-connexion Nexus.",
@@ -122,6 +122,7 @@
     "packageFileName": ""
   }
 ]
+
 
 
 
