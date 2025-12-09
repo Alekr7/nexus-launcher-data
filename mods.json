@@ -66,10 +66,6 @@
     "folderName": "SMXui",
     "packageFileName": "SMXui.zip"
   },
-
-  // --------------------
-  // MODS SERVEUR-ONLY
-  // --------------------
   {
     "id": "Allocs_CommandExtensions",
     "name": "Allocs command extensions",
@@ -126,5 +122,6 @@
     "packageFileName": ""
   }
 ]
+
 
 
