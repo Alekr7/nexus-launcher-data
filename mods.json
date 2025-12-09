@@ -3,10 +3,10 @@
     "id": "NexusAutoConnect",
     "name": "NexusAutoConnect",
     "version": "1.0.1",
-    "kind": "Harmony",
+    "kind": "client",
     "mandatory": true,
-    "descriptionShort": "Assure la communication dans l'envirronement Nexus",
-    "descriptionLong": "version 1.",
+    "descriptionShort": "Mod client obligatoire pour l'auto-connexion Nexus.",
+    "descriptionLong": "NexusAutoConnect est le mod client Harmony qui interroge le Bridge Nexus et déclenche automatiquement la connexion au serveur Nexus après le lancement du jeu.",
     "folderName": "NexusAutoConnect",
     "packageFileName": "NexusAutoConnect.zip"
   },
@@ -14,10 +14,10 @@
     "id": "shutup_engines",
     "name": "ShutUp Engines",
     "version": "1.0.9",
-    "kind": "Harmony",
+    "kind": "client",
     "mandatory": false,
-    "descriptionShort": "Réduit le volume général du jeu avec une touche.",
-    "descriptionLong": "Mod Harmony qui permet de couper/atténuer tous les sons du jeu avec une touche configurable. Idéal pour discuter sur Discord sans se faire exploser les oreilles.",
+    "descriptionShort": "Mod optionnel pour couper ou atténuer tous les sons du jeu avec une touche.",
+    "descriptionLong": "Mod Harmony optionnel qui permet de couper ou d’atténuer tous les sons du jeu via une touche configurable. Idéal pour discuter sur Discord sans se faire exploser les oreilles.",
     "folderName": "ShutUpEngines",
     "packageFileName": "ShutUpEngines.zip"
   },
@@ -25,10 +25,10 @@
     "id": "smx_core",
     "name": "SMXcore",
     "version": "2.3 (b9)",
-    "kind": "XML",
+    "kind": "client",
     "mandatory": false,
-    "descriptionShort": "Module cœur requis pour tous les mods SMX.",
-    "descriptionLong": "SMXcore est le modlet cœur de l'écosystème SMX. Vérifié pour la version 2.3 (b9). Tous les autres modlets SMX (HUD, Menu, UI) nécessitent ce module pour fonctionner. Nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation détaillées.",
+    "descriptionShort": "Module cœur requis pour l'écosystème SMX (optionnel côté Nexus).",
+    "descriptionLong": "SMXcore est le modlet cœur de l'écosystème SMX. Vérifié pour la version 2.3 (b9). Tous les autres modlets SMX (HUD, Menu, UI) peuvent s'appuyer dessus. Nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation détaillées.",
     "folderName": "SMXcore",
     "packageFileName": "SMXcore.zip",
     "downloadUrl": "https://pub-bfea6801e9384f2c83f41fb251181857.r2.dev/SMXcore.zip"
@@ -37,9 +37,9 @@
     "id": "smx_hud",
     "name": "SMXhud",
     "version": "2.3 (b9)",
-    "kind": "XML",
-    "mandatory": true,
-    "descriptionShort": "Conversion complète du HUD en version SMX.",
+    "kind": "client",
+    "mandatory": false,
+    "descriptionShort": "Conversion du HUD en version SMX (optionnelle).",
     "descriptionLong": "SMXhud est le modlet de conversion du HUD qui remplace l’interface de tête (barres de vie, stamina, buffs, etc.) par la version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
     "folderName": "SMXhud",
     "packageFileName": "SMXhud.zip"
@@ -48,9 +48,9 @@
     "id": "smx_menu",
     "name": "SMXmenu",
     "version": "2.3 (b9)",
-    "kind": "XML",
-    "mandatory": true,
-    "descriptionShort": "Conversion des menus du jeu en version SMX.",
+    "kind": "client",
+    "mandatory": false,
+    "descriptionShort": "Conversion des menus du jeu en version SMX (optionnelle).",
     "descriptionLong": "SMXmenu est le modlet de conversion des menus (écran titre, options, etc.) vers la version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
     "folderName": "SMXmenu",
     "packageFileName": "SMXmenu.zip"
@@ -59,14 +59,72 @@
     "id": "smx_ui",
     "name": "SMXui",
     "version": "2.3 (b9)",
-    "kind": "XML",
-    "mandatory": true,
-    "descriptionShort": "Conversion de l’UI complète en version SMX.",
+    "kind": "client",
+    "mandatory": false,
+    "descriptionShort": "Conversion complète de l’interface utilisateur en version SMX (optionnelle).",
     "descriptionLong": "SMXui est le modlet de conversion de l’interface utilisateur (inventaire, fenêtres, etc.) en version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
     "folderName": "SMXui",
     "packageFileName": "SMXui.zip"
+  },
+
+  // --------------------
+  // MODS SERVEUR-ONLY
+  // --------------------
+  {
+    "id": "Allocs_CommandExtensions",
+    "name": "Allocs command extensions",
+    "version": "29",
+    "kind": "server",
+    "mandatory": true,
+    "descriptionShort": "Pack de commandes serveur supplémentaires pour l’administration.",
+    "descriptionLong": "Extensions de commandes Allocs pour l’exploitation serveur : commandes supplémentaires pour l’administration, le debug et le suivi du serveur 7 Days To Die.",
+    "folderName": "Allocs_Commands",
+    "packageFileName": ""
+  },
+  {
+    "id": "Allocs_CommonFunc",
+    "name": "Allocs server fixes",
+    "version": "37",
+    "kind": "server",
+    "mandatory": true,
+    "descriptionShort": "Base de fonctions communes et fixes serveur Allocs.",
+    "descriptionLong": "Module Allocs Core contenant les fonctions communes et correctifs serveur nécessaires au bon fonctionnement des autres mods Allocs (commands, webinterface, etc.).",
+    "folderName": "Allocs_Core",
+    "packageFileName": ""
+  },
+  {
+    "id": "Allocs_WebAndMapRendering",
+    "name": "Allocs MapRendering and Webinterface",
+    "version": "51",
+    "kind": "server",
+    "mandatory": true,
+    "descriptionShort": "Rendu de la carte et interface web Alloc's pour 7DTD.",
+    "descriptionLong": "Module Allocs Webinterface qui rend la carte du monde en tuiles d’images à mesure qu’elle est découverte, et expose une interface web pour consulter la carte et l’état du serveur.",
+    "folderName": "Allocs_Webinterface",
+    "packageFileName": ""
+  },
+  {
+    "id": "Xample_MarkersMod",
+    "name": "Markers (Example Web Mod)",
+    "version": "1.1.0.0",
+    "kind": "server",
+    "mandatory": false,
+    "descriptionShort": "Exemple de mod web pour placer des marqueurs sur la carte.",
+    "descriptionLong": "Mod web d’exemple (TFP/Alloc) permettant de placer des marqueurs personnalisés sur la carte web générée par Allocs Webinterface.",
+    "folderName": "TFP_MarkersExample",
+    "packageFileName": ""
+  },
+  {
+    "id": "AcidChemRecipe",
+    "name": "AcidChemRecipe",
+    "version": "1.0.0",
+    "kind": "server",
+    "mandatory": false,
+    "descriptionShort": "Ajoute une recette avancée de bouteille d’acide côté serveur.",
+    "descriptionLong": "Petit mod serveur ajoutant une recette avancée de bouteille d’acide (recyclage de batterie), signé arkadi. Géré côté serveur, aucune installation côté client nécessaire.",
+    "folderName": "AcidChemRecipe",
+    "packageFileName": ""
   }
 ]
-
 
 
