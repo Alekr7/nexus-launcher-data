@@ -1,6 +1,7 @@
 {
   "description": "Serveur communautaire 7 Days to Die orienté survie longue durée. Loot équilibré, difficulté progressive et stabilité maximisée. La configuration et les mods sont gérés automatiquement par le launcher.",
-  "announcement": "",
+  "announcement": "Ceci est un test rapide pour voir le rendu final",
   "bannerUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/refs/heads/main/background.png",
   "footerText": "Nexus Launcher — Serveur PvE Nexus | Alek"
 }
+
