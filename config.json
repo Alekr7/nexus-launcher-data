@@ -1,21 +1,6 @@
 {
-  "title": "Nexus.7DTD – ARKADI GROS CON",
   "description": "Serveur communautaire 7 Days to Die orienté survie longue durée. Loot équilibré, difficulté progressive et stabilité maximisée. La configuration et les mods sont gérés automatiquement par le launcher.",
-  "announcement": "Règles : respect, fair-play, aucune destruction volontaire des bases, pas de grief. L’objectif est de construire et survivre ensemble.",
-  "mode": "PvE",
-  "region": "Europe",
-  "language": "French",
-  "version": "V 2.4 (b7)",
-  "ip": "192.168.1.74:26905",
-
-  "onlineStatus": "Serveur en ligne",
-  "playersOnline": "0 / 8 joueurs (exemple)",
-  "worldProgress": "Jour 42 – Horde dans 2 jours (exemple)",
-  "versionBuild": "7 Days to Die – V 2.4 (b7) – Dedicated",
-  "map": "Navezgane / Carte custom Nexus (exemple)",
-  "modsSummary": "Liste synchronisée automatiquement via l’onglet Mods.",
-
-  "bannerUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/refs/heads/main/background.png"
+  "announcement": "",
+  "bannerUrl": "https://raw.githubusercontent.com/Alekr7/nexus-launcher-data/refs/heads/main/background.png",
+  "footerText": "Nexus Launcher — Serveur PvE Nexus | Alek"
 }
-
-
