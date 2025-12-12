@@ -30,7 +30,7 @@
     "descriptionShort": "Assure la communication entre le client/server",
     "descriptionLong": "Mod serveur Nexus : gestion de /link CODE, lien avec le Bridge HTTP et préparation du chat/LiveMap.",
     "folderName": "NexusServerLink",
-    "packageFileName": "NexusServerLink.zip",
+    "packageFileName": "NexusServerLink.zip"
   },
   {
     "id": "smx_core",
@@ -133,6 +133,7 @@
     "packageFileName": ""
   }
 ]
+
 
 
 
