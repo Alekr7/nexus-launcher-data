@@ -6,8 +6,8 @@
       "eventType": "Christmas",
       "enabled": true,
 
-      "start": "2025-12-01",
-      "end": "2026-01-15",
+      "start": "2020-12-01",
+      "end": "2030-01-15",
 
       "snow": {
         "enabled": true,
@@ -40,3 +40,4 @@
     }
   ]
 }
+
