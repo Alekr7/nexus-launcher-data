@@ -22,17 +22,6 @@
     "packageFileName": "ShutUpEngines.zip"
   },
   {
-    "id": "NexusServerLink",
-    "name": "NexusServerLink",
-    "version": "1.0.5",
-    "kind": "server",
-    "mandatory": true,
-    "descriptionShort": "Assure la communication entre le client/server",
-    "descriptionLong": "Mod serveur Nexus : gestion de /link CODE, lien avec le Bridge HTTP et préparation du chat/LiveMap.",
-    "folderName": "NexusServerLink",
-    "packageFileName": "NexusServerLink.zip"
-  },
-  {
     "id": "smx_core",
     "name": "SMXcore",
     "version": "2.3 (b9)",
@@ -76,6 +65,17 @@
     "descriptionLong": "SMXui est le modlet de conversion de l’interface utilisateur (inventaire, fenêtres, etc.) en version SMX. Vérifié pour la version 2.3 (b9). Dépend de SMXcore et nécessite de désactiver Easy Anti Cheat (EAC). Lis le premier post dans l’onglet POSTS du mod pour les instructions d’installation.",
     "folderName": "SMXui",
     "packageFileName": "SMXui.zip"
+  },
+  {
+    "id": "NexusServerLink",
+    "name": "NexusServerLink",
+    "version": "1.0.5",
+    "kind": "server",
+    "mandatory": true,
+    "descriptionShort": "Assure la communication entre le client/server",
+    "descriptionLong": "Mod serveur Nexus : gestion de /link CODE, lien avec le Bridge HTTP et préparation du chat/LiveMap.",
+    "folderName": "NexusServerLink",
+    "packageFileName": "NexusServerLink.zip"
   },
   {
     "id": "Allocs_CommandExtensions",
@@ -133,6 +133,7 @@
     "packageFileName": ""
   }
 ]
+
 
 
 
