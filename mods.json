@@ -22,6 +22,17 @@
     "packageFileName": "ShutUpEngines.zip"
   },
   {
+    "id": "NexusServerLink",
+    "name": "NexusServerLink",
+    "version": "1.05",
+    "kind": "client",
+    "mandatory": false,
+    "descriptionShort": "Assure la communication entre le client/server",
+    "descriptionLong": "Mod serveur Nexus : gestion de /link CODE, lien avec le Bridge HTTP et préparation du chat/LiveMap.",
+    "folderName": "NexusServerLink",
+    "packageFileName": "NexusServerLink.zip",
+  },
+  {
     "id": "smx_core",
     "name": "SMXcore",
     "version": "2.3 (b9)",
@@ -122,6 +133,7 @@
     "packageFileName": ""
   }
 ]
+
 
 
 
