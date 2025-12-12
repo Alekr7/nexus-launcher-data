@@ -25,7 +25,7 @@
     "id": "NexusServerLink",
     "name": "NexusServerLink",
     "version": "1.05",
-    "kind": "client",
+    "kind": "server",
     "mandatory": false,
     "descriptionShort": "Assure la communication entre le client/server",
     "descriptionLong": "Mod serveur Nexus : gestion de /link CODE, lien avec le Bridge HTTP et préparation du chat/LiveMap.",
@@ -133,6 +133,7 @@
     "packageFileName": ""
   }
 ]
+
 
 
 
